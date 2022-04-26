@@ -1,0 +1,167 @@
+.font{
+	background-color:#535353;
+	height:350px;
+	margin-top:15px;
+}
+.nom{
+	color:white;
+	text-align:left;
+	font-size:30px;
+	font-family:Century Gothic;
+
+}
+.img_pp{
+	margin-left:27px;
+	height:130px;
+	border-radius: 360px;
+	
+}
+.logo_link{
+	height:50px;
+}
+.logo_insta{
+	height:70px;
+	margin-top:-10px;
+}
+.logo_mail{
+	height:60px;
+	margin-top:-3px;
+}
+
+.lien{
+	width:500px;
+	text-align:center;
+	margin-left:200px;
+	margin-top:-160px;
+}
+.zoom {
+	width: 120px;
+	height: 40px;
+}
+.image {
+	width: 100%;
+	height: 100%;
+}
+.image img {
+
+	-webkit-transition: all 1 ease; 
+
+}
+.image:hover img {
+
+	-webkit-transform:scale(1.25); 
+
+}
+.banniere{
+	height:500px;
+}
+.posiBanniere{
+	text-align:center;
+	margin-top:60px;
+}
+.txt_portefolio{
+	font-size:25px;
+	font-family:Trebuchet MS;
+	color: gray;
+}
+.nav{
+	width:1000px;
+	margin-top:100px;
+	margin-right:100px;
+	
+	
+}
+
+.sous-nom{
+	color:orange;
+	font-size:20px;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+	background-color:#D2D2D2;
+	border-radius:20px;
+	
+	
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+	font-family:monospace;
+	font-size:23px;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+	font-size:19px;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+	font-size:20px;
+}
+.bas{
+	background-color:#535353;
+	height:100px;
+	margin-top:50px;
+}
+.imgbts{
+	height:100px;
+}
+.paraBts{
+	font: italic 18px "Fira Sans", serif;
+	margin-top:50px;
+}
+.titreInfo{
+	font: italic small-caps bold 20px/2 cursive;
+	margin-top:50px;
+}
+.posi_infoBtsOption{
+	margin-top:50px;
+}
